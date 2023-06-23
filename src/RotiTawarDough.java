@@ -1,7 +1,7 @@
 import Interface.calcDough;
 
-public class RotiManisDough extends Dough implements calcDough {
-
+public class RotiTawarDough extends Dough implements calcDough {
+    
     // Add Dough Attributes
     @Override
     double Tepung() {
@@ -10,12 +10,12 @@ public class RotiManisDough extends Dough implements calcDough {
 
     @Override
     double Gula() {
-        return 150;
+        return 125;
     }
 
     @Override
     double Butter() {
-        return 150;
+        return 100;
     }
 
     @Override
@@ -25,27 +25,27 @@ public class RotiManisDough extends Dough implements calcDough {
 
     @Override
     double SusuB() {
-        return 300;
-    }
-
-    @Override
-    double SusuC() {
         return 250;
     }
 
     @Override
+    double SusuC() {
+        return 200;
+    }
+
+    @Override
     double Telur() {
-        return 80;
+        return 70;
     }
 
     @Override
     double EsBatu() {
-        return 400;
+        return 300;
     }
     
     @Override
     double sumWeight() {
-        return 2350;
+        return 2060;
     }
     
     // Implements Dough Calculation

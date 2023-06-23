@@ -16,4 +16,5 @@ public abstract class Dough {
     abstract double SusuC();
     abstract double Telur();
     abstract double EsBatu();
+    abstract double sumWeight();
 }
