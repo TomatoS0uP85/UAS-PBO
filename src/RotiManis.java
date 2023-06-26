@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class RotiManis extends RotiManisDough {
     
     // Attributes
@@ -99,9 +98,9 @@ public class RotiManis extends RotiManisDough {
     // Display the price
     void printData() {
         System.out.println("------------------Roti Manis------------------");
-        System.out.println("Harga Varian 1 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar1()));
-        System.out.println("Harga Varian 2 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar2()));
-        System.out.println("Harga Varian 3 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar3()));
+        System.out.println("Harga Varian 1 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar1()) + "/pcs");
+        System.out.println("Harga Varian 2 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar2()) + "/pcs");
+        System.out.println("Harga Varian 3 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar3()) + "/pcs");
         System.out.println("Harga Total Pesanan Variant 1 :     Rp." + Math.round(TotalPriceRotiManisvar1()));
         System.out.println("Harga Total Pesanan Variant 2 :     Rp." + Math.round(TotalPriceRotiManisvar2()));
         System.out.println("Harga Total Pesanan Variant 3 :     Rp." + Math.round(TotalPriceRotiManisvar3()));
@@ -109,17 +108,5 @@ public class RotiManis extends RotiManisDough {
         System.out.println("----------------------------------------------");
         System.out.println("");
     }
-=======
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author ASUS
- */
-public class RotiManis {
->>>>>>> a26ecea0188bc83cb0ca7e8304c78c68c2dff35c
-    
 }
