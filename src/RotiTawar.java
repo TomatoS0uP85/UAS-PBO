@@ -50,7 +50,7 @@ public class RotiTawar extends RotiTawarDough {
     
     // Display the price
     void printData() {
-        System.out.println("-------------------Roti Tawar-------------------");
+        System.out.println("-------------------Roti Tawar--------------------");
         System.out.println("Harga Varian 1 Roti Tawar per pcs : Rp." + Math.round(this.PriceVar1()) + "/pcs");
         System.out.println("Harga Varian 2 Roti Tawar per pcs : Rp." + Math.round(this.PriceVar2()) + "/pcs");
         System.out.println("Harga Total Pesanan Variant 1     : Rp." + Math.round(this.TotalPriceVar1()));

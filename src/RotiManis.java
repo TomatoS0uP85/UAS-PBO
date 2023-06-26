@@ -101,7 +101,7 @@ public class RotiManis extends RotiManisDough {
     
     // Display the price
     void printData() {
-        System.out.println("-------------------Roti Manis-------------------");
+        System.out.println("-------------------Roti Manis--------------------");
         System.out.println("Harga Varian 1 Roti Manis per pcs : Rp." + Math.round(this.PriceVar1()) + "/pcs");
         System.out.println("Harga Varian 2 Roti Manis per pcs : Rp." + Math.round(this.PriceVar2()) + "/pcs");
         System.out.println("Harga Varian 3 Roti Manis per pcs : Rp." + Math.round(this.PriceVar3()) + "/pcs");
