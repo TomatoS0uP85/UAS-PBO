@@ -108,9 +108,5 @@ public class RotiManis extends RotiManisDough {
         System.out.println("----------------------------------------------");
         System.out.println("");
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 67e0cf19e1a49454c5f1d3877d9b7ed1abe567fa
 }
 
