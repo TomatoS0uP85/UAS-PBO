@@ -98,9 +98,9 @@ public class RotiManis extends RotiManisDough {
     // Display the price
     void printData() {
         System.out.println("------------------Roti Manis------------------");
-        System.out.println("Harga Varian 1 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar1()));
-        System.out.println("Harga Varian 2 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar2()));
-        System.out.println("Harga Varian 3 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar3()));
+        System.out.println("Harga Varian 1 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar1()) + "/pcs");
+        System.out.println("Harga Varian 2 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar2()) + "/pcs");
+        System.out.println("Harga Varian 3 Roti Manis per pcs : Rp." + Math.round(PriceRotiManisvar3()) + "/pcs");
         System.out.println("Harga Total Pesanan Variant 1 :     Rp." + Math.round(TotalPriceRotiManisvar1()));
         System.out.println("Harga Total Pesanan Variant 2 :     Rp." + Math.round(TotalPriceRotiManisvar2()));
         System.out.println("Harga Total Pesanan Variant 3 :     Rp." + Math.round(TotalPriceRotiManisvar3()));
@@ -108,5 +108,9 @@ public class RotiManis extends RotiManisDough {
         System.out.println("----------------------------------------------");
         System.out.println("");
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67e0cf19e1a49454c5f1d3877d9b7ed1abe567fa
 }
 
