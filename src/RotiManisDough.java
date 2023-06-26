@@ -2,7 +2,7 @@ import Interface.calcDough;
 
 public class RotiManisDough extends Dough implements calcDough {
 
-    // Add Dough Attributes
+    // Add Dough's Attributes
     @Override
     double Tepung() {
         return 1000;
@@ -89,10 +89,12 @@ public class RotiManisDough extends Dough implements calcDough {
         return this.EsBatu()/1000 * 2000;
     }
     
+    // Calculate the sum cost of dough
     double sumcalcDough() {
         return this.calcTepung() + this.calcGula() + this.calcButter() + this.calcRagi() + this.calcSusuB() + this.calcSusuC() + this.calcTelur() + this.calcEsBatu();
     }
     
+    // Calculate the cost of dough per pcs
     double calcDoughPcs() {
         return 50 / this.sumWeight() * this.sumcalcDough();
     }

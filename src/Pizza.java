@@ -2,10 +2,10 @@ public class Pizza extends PizzaDough{
 
     // Attributes
     double Pesananvar1;
-    private final double Keju = 30;
-    private final double Sosis = 50;
-    private final double SmokedBeef = 50;
-    private final double BawangBombay = 30;
+    final double Keju = 30;
+    final double Sosis = 50;
+    final double SmokedBeef = 50;
+    final double BawangBombay = 30;
     
     // Calculate the price per ingredients
     private double calcKeju() {
@@ -26,7 +26,7 @@ public class Pizza extends PizzaDough{
     
     // Calculate the sum of variant 1 Toppings cost
     private double calcPizzavar1() {
-        return this.calcKeju() + this.calcSosis() + this.calcSmokedBeef() + calcBawangBombay();
+        return this.calcKeju() + this.calcSosis() + this.calcSmokedBeef() + this.calcBawangBombay();
     }
     
     // Calculate the sum of all variants cost
@@ -36,20 +36,20 @@ public class Pizza extends PizzaDough{
     
     // Calculate price per pcs
     private double PricePizzavar1() {
-        return (sumPizzavar1() * 40) / 100 + sumPizzavar1();
+        return (this.sumPizzavar1() * 40) / 100 + this.sumPizzavar1();
     }
     
     // Calculate total price
-    double TotalPrice() {
-        return PricePizzavar1() * Pesananvar1;
+    private double TotalPrice() {
+        return PricePizzavar1() * this.Pesananvar1;
     }
     
     // Display the price
     void printData() {
-        System.out.println("-----------------Pizza-----------------");
+        System.out.println("------------------Pizza------------------");
         System.out.println("Harga Varian Pizza per pcs : Rp." + Math.round(PricePizzavar1()) + "/pcs");
         System.out.println("Harga Total Pesanan :        Rp." + Math.round(TotalPrice()));
-        System.out.println("---------------------------------------");
+        System.out.println("---------------============---------------");
         System.out.println("");
     }
     
