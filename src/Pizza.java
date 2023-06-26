@@ -47,8 +47,8 @@ public class Pizza extends PizzaDough{
     // Display the price
     void printData() {
         System.out.println("------------------Pizza-------------------");
-        System.out.println("Harga Varian Pizza per pcs : Rp." + Math.round(PriceVar1()) + "/pcs");
-        System.out.println("Harga Total Pesanan :        Rp." + Math.round(TotalPrice()));
+        System.out.println("Harga Varian Pizza per pcs : Rp." + Math.round(this.PriceVar1()) + "/pcs");
+        System.out.println("Harga Total Pesanan :        Rp." + Math.round(this.TotalPrice()));
         System.out.println("---------------============---------------");
         System.out.println("");
     }
