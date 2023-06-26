@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class RotiManis extends RotiManisDough {
     
     // Attributes
@@ -109,17 +108,5 @@ public class RotiManis extends RotiManisDough {
         System.out.println("----------------------------------------------");
         System.out.println("");
     }
-=======
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author ASUS
- */
-public class RotiManis {
->>>>>>> a26ecea0188bc83cb0ca7e8304c78c68c2dff35c
-    
 }
+
